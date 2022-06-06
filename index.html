@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> displays site properly based on user's device -->
   
   <!-- Fonts from google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,27 +19,45 @@
   </style>
 </head>
 <body>
-  <div class="card" style="width: 18rem;">
-    <div class="card-total">
-      <div class="card-body">
-        <span><img src="./images/avatars/image-amyrobson.png"></span>
-        <span><p class="card-title">Amy Robinson</p></span>
-        <span><p>1 hour ago</p></span>
-        <span><a href="#" class="btn btn-reply">Reply -></a></span>
-        <p class="card-text">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
-      </div>
+  <div id="card">
+    <div class="card-top">
+      <span><button><img src="images/icon-plus.svg"></button>12<button><img src="images/icon-minus.svg"></button></span>
+      <span><img src="./images/avatars/image-amyrobson.png"></span>
+      <span><p class="card-title">Amy Robinson</p></span>
+      <span><p>1 hour ago</p></span>
+      <span><a href="#" class="btn btn-reply">Reply -></a></span>
     </div>
+        <p class="card-text">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
   </div>
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
-  <div class="card">
-    <div class="card-footer">
+
+  <div id="card">
+    <span><button><img src="images/icon-plus.svg"></button>5<button><img src="images/icon-minus.svg"></button></span>
+    <span><img src="./images/avatars/image-amyrobson.png"></span>
+    <span><p class="card-title">Amy Robinson</p></span>
+    <span><p>1 hour ago</p></span>
+    <span><a href="#" class="btn btn-reply">Reply -></a></span>
+    <p class="card-text">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
+</div>
+
+<div id="card">
+  <span><button><img src="images/icon-plus.svg"></button>7<button><img src="images/icon-minus.svg"></button></span>
+  <span><img src="./images/avatars/image-amyrobson.png"></span>
+  <span><p class="card-title">Amy Robinson</p></span>
+  <span><p>1 hour ago</p></span>
+  <span><a href="#" class="btn btn-reply">Reply -></a></span>
+  <p class="card-text">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
+</div>
+
+  <div id="card-footer">
       <span><img src="./images/avatars/image-amyrobson.png"></span>
       <input class="textField" type="text" placeholder="Add a comment">
       <a href="#" class="btn btn-primary">Send</a>
-    </div>
   </div>
+
+  <!-- <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
 </body>
 </html>
