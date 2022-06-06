@@ -10,6 +10,7 @@
   <!-- Fonts from google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="stylesheet.css">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Interactive comments section</title>
@@ -21,10 +22,27 @@
   </style>
 </head>
 <body>
-  
-  <div class="attribution">
+  <div class="card" style="width: 18rem;">
+    <div class="card-total">
+      <div class="card-body">
+        <span><img src="./images/avatars/image-amyrobson.png"></span>
+        <span><p class="card-title">Amy Robinson</p></span>
+        <span><p>1 hour ago</p></span>
+        <span><a href="#" class="btn btn-reply">Reply -></a></span>
+        <p class="card-text">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <div class="card">
+    <div class="card-footer">
+      <span><img src="./images/avatars/image-amyrobson.png"></span>
+      <input class="textField" type="text" placeholder="Add a comment">
+      <a href="#" class="btn btn-primary">Send</a>
+    </div>
   </div>
 </body>
 </html>
